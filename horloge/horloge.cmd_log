@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 horloge.ngc horloge.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o horloge_map.ncd horloge.ngd horloge.pcf 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 horloge.ngc horloge.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o horloge_map.ncd horloge.ngd horloge.pcf 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 horloge.ngc horloge.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o horloge_map.ncd horloge.ngd horloge.pcf 
+par -w -intstyle ise -ol high -t 1 horloge_map.ncd horloge.ncd horloge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml horloge.twx horloge.ncd -o horloge.twr horloge.pcf 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 horloge.ngc horloge.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o horloge_map.ncd horloge.ngd horloge.pcf 
+par -w -intstyle ise -ol high -t 1 horloge_map.ncd horloge.ncd horloge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml horloge.twx horloge.ncd -o horloge.twr horloge.pcf 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+netgen -intstyle ise -ar Structure -tm horloge -w -dir netgen/synthesis -ofmt vhdl -sim horloge.ngc horloge_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 
+xst -intstyle ise -ifn "C:/Users/ster/VHDL/horloge/horloge.xst" -ofn "C:/Users/ster/VHDL/horloge/horloge.syr" 

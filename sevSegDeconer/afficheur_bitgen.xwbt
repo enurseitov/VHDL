@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ster\VHDL\sevSegDeconer\afficheur.ncd
+OUTFILE=C:\Users\ster\VHDL\sevSegDeconer\afficheur.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\ster\VHDL\sevSegDeconer
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,12 @@
+V3 7
+FL C:/Users/ster/VHDL/b8adder/adder.vhd 2016/09/12.16:53:49 P.20131013
+EN work/fullAdder 1473747019 FL C:/Users/ster/VHDL/b8adder/adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fullAdder/Behavioral 1473747020 \
+      FL C:/Users/ster/VHDL/b8adder/adder.vhd EN work/fullAdder 1473747019
+FL C:/Users/ster/VHDL/b8adder/fourBitAdder.vhd 2016/09/13.08:10:16 P.20131013
+EN work/fourBitAdder 1473747021 FL C:/Users/ster/VHDL/b8adder/fourBitAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fourBitAdder/Behavioral 1473747022 \
+      FL C:/Users/ster/VHDL/b8adder/fourBitAdder.vhd EN work/fourBitAdder 1473747021 \
+      CP fullAdder

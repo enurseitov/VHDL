@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/ster/VHDL/fsm/machine.vhd 2016/09/14.08:45:45 P.20131013
+EN work/machine 1473835981 FL C:/Users/ster/VHDL/fsm/machine.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/machine/Behavioral 1473835982 \
+      FL C:/Users/ster/VHDL/fsm/machine.vhd EN work/machine 1473835981

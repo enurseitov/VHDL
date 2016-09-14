@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf
+
+Design file:              counter.ncd
+Physical constraint file: counter.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clock to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+count<0>    |    7.729(R)|clock_BUFGP       |   0.000|
+count<1>    |    7.799(R)|clock_BUFGP       |   0.000|
+count<2>    |    8.674(R)|clock_BUFGP       |   0.000|
+count<3>    |    7.491(R)|clock_BUFGP       |   0.000|
+count<4>    |    7.200(R)|clock_BUFGP       |   0.000|
+count<5>    |    8.329(R)|clock_BUFGP       |   0.000|
+count<6>    |    7.706(R)|clock_BUFGP       |   0.000|
+count<7>    |    8.840(R)|clock_BUFGP       |   0.000|
+count<8>    |    8.792(R)|clock_BUFGP       |   0.000|
+count<9>    |    8.016(R)|clock_BUFGP       |   0.000|
+count<10>   |    8.408(R)|clock_BUFGP       |   0.000|
+count<11>   |    8.666(R)|clock_BUFGP       |   0.000|
+count<12>   |    8.233(R)|clock_BUFGP       |   0.000|
+count<13>   |    8.453(R)|clock_BUFGP       |   0.000|
+count<14>   |    7.171(R)|clock_BUFGP       |   0.000|
+count<15>   |    8.417(R)|clock_BUFGP       |   0.000|
+count<16>   |    8.520(R)|clock_BUFGP       |   0.000|
+count<17>   |    7.811(R)|clock_BUFGP       |   0.000|
+count<18>   |    7.466(R)|clock_BUFGP       |   0.000|
+count<19>   |    8.699(R)|clock_BUFGP       |   0.000|
+count<20>   |    7.738(R)|clock_BUFGP       |   0.000|
+count<21>   |    7.205(R)|clock_BUFGP       |   0.000|
+count<22>   |    7.744(R)|clock_BUFGP       |   0.000|
+count<23>   |    8.081(R)|clock_BUFGP       |   0.000|
+count<24>   |    8.333(R)|clock_BUFGP       |   0.000|
+count<25>   |    8.497(R)|clock_BUFGP       |   0.000|
+count<26>   |    8.007(R)|clock_BUFGP       |   0.000|
+count<27>   |    7.772(R)|clock_BUFGP       |   0.000|
+count<28>   |    7.200(R)|clock_BUFGP       |   0.000|
+count<29>   |    7.748(R)|clock_BUFGP       |   0.000|
+count<30>   |    8.103(R)|clock_BUFGP       |   0.000|
+count<31>   |    7.803(R)|clock_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    4.823|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Sep 13 10:32:48 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 170 MB
+
+
+

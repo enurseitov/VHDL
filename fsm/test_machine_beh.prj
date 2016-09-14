@@ -1,0 +1,2 @@
+vhdl work "machine.vhd"
+vhdl work "test_machine.vhd"

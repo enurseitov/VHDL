@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ster/VHDL/sevSegDeconer/test_bench_isim_beh.exe" -prj "C:/Users/ster/VHDL/sevSegDeconer/test_bench_beh.prj" "work.test_bench" 

@@ -1,0 +1,5 @@
+work	"comparator.vhd"
+work	"counter.vhd"
+work	"fixed_output.vhd"
+work	"horloge.vhd"
+work	"t_flipflop.vhd"

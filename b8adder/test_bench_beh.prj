@@ -1,0 +1,3 @@
+vhdl work "adder.vhd"
+vhdl work "fourBitAdder.vhd"
+vhdl work "test_bench.vhd"

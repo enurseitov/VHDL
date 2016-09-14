@@ -1,0 +1,464 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: horloge.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "horloge.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "horloge"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : horloge
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ster/VHDL/horloge/counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "C:/Users/ster/VHDL/horloge/fixed_output.vhd" in Library work.
+Architecture behavioral of Entity fixed_output is up to date.
+Compiling vhdl file "C:/Users/ster/VHDL/horloge/comparator.vhd" in Library work.
+Architecture behavioral of Entity comparator is up to date.
+Compiling vhdl file "C:/Users/ster/VHDL/horloge/t_flipflop.vhd" in Library work.
+Architecture behavioral of Entity t_flipflop is up to date.
+Compiling vhdl file "C:/Users/ster/VHDL/horloge/horloge.vhd" in Library work.
+Architecture behavioral of Entity horloge is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <horloge> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <fixed_output> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <comparator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <t_flipflop> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <horloge> in library <work> (Architecture <behavioral>).
+Entity <horloge> analyzed. Unit <horloge> generated.
+
+Analyzing Entity <counter> in library <work> (Architecture <behavioral>).
+Entity <counter> analyzed. Unit <counter> generated.
+
+Analyzing Entity <fixed_output> in library <work> (Architecture <behavioral>).
+Entity <fixed_output> analyzed. Unit <fixed_output> generated.
+
+Analyzing Entity <comparator> in library <work> (Architecture <behavioral>).
+Entity <comparator> analyzed. Unit <comparator> generated.
+
+Analyzing Entity <t_flipflop> in library <work> (Architecture <behavioral>).
+Entity <t_flipflop> analyzed. Unit <t_flipflop> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <counter>.
+    Related source file is "C:/Users/ster/VHDL/horloge/counter.vhd".
+    Found 32-bit up counter for signal <tempcount>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <fixed_output>.
+    Related source file is "C:/Users/ster/VHDL/horloge/fixed_output.vhd".
+Unit <fixed_output> synthesized.
+
+
+Synthesizing Unit <comparator>.
+    Related source file is "C:/Users/ster/VHDL/horloge/comparator.vhd".
+    Found 32-bit comparator equal for signal <equals$cmp_eq0000> created at line 16.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <comparator> synthesized.
+
+
+Synthesizing Unit <t_flipflop>.
+    Related source file is "C:/Users/ster/VHDL/horloge/t_flipflop.vhd".
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2110 - Clock of register <temp> seems to be also used in the data or control logic of that element.
+    Found 1-bit register for signal <temp>.
+    Found 1-bit xor2 for signal <temp$xor0000> created at line 25.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <t_flipflop> synthesized.
+
+
+Synthesizing Unit <horloge>.
+    Related source file is "C:/Users/ster/VHDL/horloge/horloge.vhd".
+WARNING:Xst:646 - Signal <resetSignal> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <horloge> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Comparators                                          : 1
+ 32-bit comparator equal                               : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 1
+ 32-bit comparator equal                               : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <horloge> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block horloge, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : horloge.ngr
+Top Level Output File Name         : horloge
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 115
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 31
+#      LUT2                        : 1
+#      LUT4                        : 8
+#      MUXCY                       : 39
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 33
+#      FD                          : 1
+#      FDC                         : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       21  out of   4656     0%  
+ Number of Slice Flip Flops:             33  out of   9312     0%  
+ Number of 4 input LUTs:                 42  out of   9312     0%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    232     1%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------+------------------------+-------+
+Clock Signal                                 | Clock buffer(FF name)  | Load  |
+---------------------------------------------+------------------------+-------+
+comparatorOutput(comparatorOutput_wg_cy<7>:O)| NONE(*)(FLIPFLOP0/temp)| 1     |
+clock                                        | BUFGP                  | 32    |
+---------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+---------------------------+-------+
+Control Signal                     | Buffer(FF name)           | Load  |
+-----------------------------------+---------------------------+-------+
+reset_inv(reset_inv1_INV_0:O)      | NONE(COUNTER0/tempcount_0)| 32    |
+-----------------------------------+---------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.204ns (Maximum Frequency: 192.160MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.310ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'comparatorOutput'
+  Clock period: 2.225ns (frequency: 449.438MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.225ns (Levels of Logic = 1)
+  Source:            FLIPFLOP0/temp (FF)
+  Destination:       FLIPFLOP0/temp (FF)
+  Source Clock:      comparatorOutput rising
+  Destination Clock: comparatorOutput rising
+
+  Data Path: FLIPFLOP0/temp to FLIPFLOP0/temp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.622  FLIPFLOP0/temp (FLIPFLOP0/temp)
+     LUT2:I0->O            1   0.704   0.000  FLIPFLOP0/Mxor_temp_xor0000_Result1 (FLIPFLOP0/temp_xor0000)
+     FD:D                      0.308          FLIPFLOP0/temp
+    ----------------------------------------
+    Total                      2.225ns (1.603ns logic, 0.622ns route)
+                                       (72.0% logic, 28.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 5.204ns (frequency: 192.160MHz)
+  Total number of paths / destination ports: 528 / 32
+-------------------------------------------------------------------------
+Delay:               5.204ns (Levels of Logic = 32)
+  Source:            COUNTER0/tempcount_1 (FF)
+  Destination:       COUNTER0/tempcount_31 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: COUNTER0/tempcount_1 to COUNTER0/tempcount_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  COUNTER0/tempcount_1 (COUNTER0/tempcount_1)
+     LUT1:I0->O            1   0.704   0.000  COUNTER0/Mcount_tempcount_cy<1>_rt (COUNTER0/Mcount_tempcount_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  COUNTER0/Mcount_tempcount_cy<1> (COUNTER0/Mcount_tempcount_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<2> (COUNTER0/Mcount_tempcount_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<3> (COUNTER0/Mcount_tempcount_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<4> (COUNTER0/Mcount_tempcount_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<5> (COUNTER0/Mcount_tempcount_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<6> (COUNTER0/Mcount_tempcount_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<7> (COUNTER0/Mcount_tempcount_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<8> (COUNTER0/Mcount_tempcount_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<9> (COUNTER0/Mcount_tempcount_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<10> (COUNTER0/Mcount_tempcount_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<11> (COUNTER0/Mcount_tempcount_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<12> (COUNTER0/Mcount_tempcount_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<13> (COUNTER0/Mcount_tempcount_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<14> (COUNTER0/Mcount_tempcount_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<15> (COUNTER0/Mcount_tempcount_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<16> (COUNTER0/Mcount_tempcount_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<17> (COUNTER0/Mcount_tempcount_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<18> (COUNTER0/Mcount_tempcount_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<19> (COUNTER0/Mcount_tempcount_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<20> (COUNTER0/Mcount_tempcount_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<21> (COUNTER0/Mcount_tempcount_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<22> (COUNTER0/Mcount_tempcount_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<23> (COUNTER0/Mcount_tempcount_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<24> (COUNTER0/Mcount_tempcount_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<25> (COUNTER0/Mcount_tempcount_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<26> (COUNTER0/Mcount_tempcount_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<27> (COUNTER0/Mcount_tempcount_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<28> (COUNTER0/Mcount_tempcount_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  COUNTER0/Mcount_tempcount_cy<29> (COUNTER0/Mcount_tempcount_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  COUNTER0/Mcount_tempcount_cy<30> (COUNTER0/Mcount_tempcount_cy<30>)
+     XORCY:CI->O           1   0.804   0.000  COUNTER0/Mcount_tempcount_xor<31> (Result<31>)
+     FDC:D                     0.308          COUNTER0/tempcount_31
+    ----------------------------------------
+    Total                      5.204ns (4.582ns logic, 0.622ns route)
+                                       (88.0% logic, 12.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'comparatorOutput'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            FLIPFLOP0/temp (FF)
+  Destination:       clockOut (PAD)
+  Source Clock:      comparatorOutput rising
+
+  Data Path: FLIPFLOP0/temp to clockOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.447  FLIPFLOP0/temp (FLIPFLOP0/temp)
+     OBUF:I->O                 3.272          clockOut_OBUF (clockOut)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.48 secs
+ 
+--> 
+
+Total memory usage is 262680 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

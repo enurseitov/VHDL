@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/ster/majority/maj4.xst" -ofn "C:/Users/ster/majority/maj4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 maj4.ngc maj4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o maj4_map.ncd maj4.ngd maj4.pcf 
+par -w -intstyle ise -ol high -mt off maj4_map.ncd maj4.ncd maj4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml maj4.twx maj4.ncd -o maj4.twr maj4.pcf 
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm maj4 -w -dir netgen/translate -ofmt vhdl -sim maj4.ngd maj4_translate.vhd 
+netgen -intstyle ise -ar Structure -tm maj4 -w -dir netgen/synthesis -ofmt vhdl -sim maj4.ngc maj4_synthesis.vhd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ster/VHDL/horloge/test_t_flipflop_isim_beh.exe" -prj "C:/Users/ster/VHDL/horloge/test_t_flipflop_beh.prj" "work.test_t_flipflop" 

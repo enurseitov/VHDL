@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ster/VHDL/horloge/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ster/VHDL/horloge/xst"
+elaborate
+-ifn comparator.prj
+-ifmt mixed

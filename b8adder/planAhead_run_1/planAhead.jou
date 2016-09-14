@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Sep 13 08:38:30 2016
+# Process ID: 3824
+# Log file: C:/Users/ster/VHDL/b8adder/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/ster/VHDL/b8adder/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/ster/VHDL/b8adder/pa.fromNetlist.tcl
