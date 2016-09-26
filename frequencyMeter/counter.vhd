@@ -29,7 +29,7 @@ begin
 				temp <= count;
 				count <= (others => '0');
 			else
-				if (count <60000000) then
+				if (count <250000000) then
 				count <= count + 1;
 				else
 				count <= (others => '0');

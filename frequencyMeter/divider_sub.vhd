@@ -135,7 +135,7 @@ G: process (clk)
 		when check =>
 		--
 		when err =>
-			if (d2>50000000) then tooLow <= '1'; tooHigh <= '0';
+			if (d2>50000000 or d2 = 0) then tooLow <= '1'; tooHigh <= '0';
 			elsif (d2<=50000) then tooHigh <= '1'; tooLow <= '0';
 			end if;
 			result <= (others => '0');
