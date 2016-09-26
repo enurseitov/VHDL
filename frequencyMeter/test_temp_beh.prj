@@ -1,0 +1,4 @@
+vhdl work "divider.vhd"
+vhdl work "counter.vhd"
+vhdl work "temp.vhd"
+vhdl work "test_temp.vhd"

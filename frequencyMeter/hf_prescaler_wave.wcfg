@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ster/VHDL/frequencyMeter/test_hf_prescaler_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="test_hf_prescaler" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/test_hf_prescaler/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/toohigh" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">toohigh</obj_property>
+      <obj_property name="ObjectShortName">toohigh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/toolow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">toolow</obj_property>
+      <obj_property name="ObjectShortName">toolow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/inrange" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inrange</obj_property>
+      <obj_property name="ObjectShortName">inrange</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/kilo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">kilo</obj_property>
+      <obj_property name="ObjectShortName">kilo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/mega" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mega</obj_property>
+      <obj_property name="ObjectShortName">mega</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/pointposition" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pointposition[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pointposition[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/uut/presentstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">presentstate</obj_property>
+      <obj_property name="ObjectShortName">presentstate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/uut/futurestate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">futurestate</obj_property>
+      <obj_property name="ObjectShortName">futurestate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/uut/d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_hf_prescaler/uut/d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

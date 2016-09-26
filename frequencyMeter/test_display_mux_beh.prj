@@ -1,0 +1,2 @@
+vhdl work "display_mux.vhd"
+vhdl work "test_display_mux.vhd"

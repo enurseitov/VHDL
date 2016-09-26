@@ -1,0 +1,7 @@
+vhdl work "C:\Users\ster\VHDL\frequencyMeter\display_temp_buffer.vhd"
+vhdl work "C:\Users\ster\VHDL\frequencyMeter\display_mux.vhd"
+vhdl work "C:\Users\ster\VHDL\frequencyMeter\display_freq_divider.vhd"
+vhdl work "C:\Users\ster\VHDL\frequencyMeter\display_decoder.vhd"
+vhdl work "C:\Users\ster\VHDL\frequencyMeter\display_bit_shifter.vhd"
+vhdl work "C:\Users\ster\VHDL\frequencyMeter\display_binary_to_BCD.vhd"
+vhdl work "C:\Users\ster\VHDL\frequencyMeter\display_driver.vhd"

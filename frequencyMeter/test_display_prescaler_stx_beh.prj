@@ -1,0 +1,3 @@
+vhdl isim_temp "myArith.vhd"
+vhdl isim_temp "display_prescaler.vhd"
+vhdl isim_temp "test_display_prescaler.vhd"

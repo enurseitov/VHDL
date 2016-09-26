@@ -1,0 +1,2 @@
+vhdl isim_temp "display_bit_shifter.vhd"
+vhdl isim_temp "test_display_bit_shifter.vhd"

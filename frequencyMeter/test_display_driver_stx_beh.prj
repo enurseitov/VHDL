@@ -1,0 +1,8 @@
+vhdl isim_temp "display_temp_buffer.vhd"
+vhdl isim_temp "display_mux.vhd"
+vhdl isim_temp "display_freq_divider.vhd"
+vhdl isim_temp "display_decoder.vhd"
+vhdl isim_temp "display_bit_shifter.vhd"
+vhdl isim_temp "display_binary_to_BCD.vhd"
+vhdl isim_temp "display_driver.vhd"
+vhdl isim_temp "test_display_driver.vhd"

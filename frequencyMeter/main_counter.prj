@@ -1,0 +1,7 @@
+vhdl work "myArith.vhd"
+vhdl work "divider.vhd"
+vhdl work "counter.vhd"
+vhdl work "temp.vhd"
+vhdl work "source_mux.vhd"
+vhdl work "detector_hf.vhd"
+vhdl work "main_counter.vhd"

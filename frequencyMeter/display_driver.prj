@@ -1,0 +1,7 @@
+vhdl work "display_temp_buffer.vhd"
+vhdl work "display_mux.vhd"
+vhdl work "display_freq_divider.vhd"
+vhdl work "display_decoder.vhd"
+vhdl work "display_bit_shifter.vhd"
+vhdl work "display_binary_to_BCD.vhd"
+vhdl work "display_driver.vhd"

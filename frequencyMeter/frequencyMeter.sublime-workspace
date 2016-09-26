@@ -1,0 +1,320 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mi",
+				"micros	Arduino micros()"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"vo",
+				"void"
+			],
+			[
+				"req",
+				"requestRCData"
+			],
+			[
+				"pas",
+				"parseNeuroData"
+			],
+			[
+				"digit",
+				"digitalRead"
+			],
+			[
+				"Ser",
+				"Serial"
+			],
+			[
+				"br",
+				"break"
+			],
+			[
+				"Se",
+				"Serial"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"NE",
+				"NEUROEventRun"
+			],
+			[
+				"b",
+				"bSize"
+			],
+			[
+				"con",
+				"containsNestedKey"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"a",
+				"available"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"comman",
+				"commandSize"
+			],
+			[
+				"se",
+				"sensorType"
+			],
+			[
+				"Ard",
+				"ArduinoJson"
+			],
+			[
+				"INPU",
+				"INPUT"
+			],
+			[
+				"pi",
+				"pin"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"pin",
+				"pinMode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add ",
+				"Package Control: Add Repository"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ster/VHDL/frequencyMeter/frequencyMeter.xise",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/HardwareSerial.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/Trackduino.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/PulseSensor.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/variants/trackduino/pins_arduino.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/Trackduino.cpp",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/PulseSensor.cpp",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/TrackduinoRemote.cpp",
+		"/C/Program Files (x86)/Robotrack/tools/NeuroInterface/tool/ThinkGear_Connector/ThinkGear Connector.exe.config",
+		"/C/Users/ster/Desktop/ThinkGear_Connector/NLog.config",
+		"/C/Users/ster/Desktop/ThinkGear_Connector/ThinkGear Connector.exe.config",
+		"/C/Users/ster/Desktop/Windows-Developer-Tools-3.0/Windows Developer Tools 3.0/ThinkGear_Connector/ThinkGear_Connector/ThinkGear Connector.exe.config",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/main.cpp",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/TrackduinoRemote.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/Display.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/Display.cpp",
+		"/C/cygwin/home/ster/Robotrack-master/Robotrack-master/hardware/robotrack/avr/cores/arduino/HardwareSerial.h",
+		"/C/cygwin/home/ster/Robotrack-master/Robotrack-master/build/build.xml",
+		"/C/Program Files (x86)/Robotrack/libraries/Servo/src/avr/ServoTimers.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/Arduino.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/boards.txt",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/hooks.c",
+		"/C/Program Files (x86)/Robotrack/libraries/Servo/src/avr/Servo.cpp",
+		"/C/Users/ster/Desktop/robotrack.tft",
+		"/C/Program Files (x86)/MRT/MRTSetup/functions_codes.h",
+		"/C/Program Files (x86)/MRT/MRTSetup/libhuna.a",
+		"/C/Program Files (x86)/Robotrack/VisualTutorial/n2.abp",
+		"/C/Users/ster/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/ster/Documents/Arduino/libraries/TMRpcm/pcmConfig.h",
+		"/C/Users/ster/Documents/Arduino/test/test.ino",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/ArduinoJson/include/ArduinoJson.h",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/ArduinoJson/ArduinoJson.h",
+		"/C/Users/ster/Documents/Arduino/libraries/TMRpcm/README",
+		"/C/Users/ster/Documents/Arduino/libraries/TMRpcm/TMRpcm.cpp",
+		"/C/Program Files (x86)/Robotrack/lib/keywords.txt",
+		"/C/Users/ster/Desktop/BT.cpp",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/cores/arduino/keywords.txt",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/platform.txt",
+		"/C/Program Files (x86)/Robotrack/hardware/robotrack/avr/libraries/keywoards.txt",
+		"/C/Users/ster/Downloads/SW2016_SP3.0_Full-SSQ/_SolidSQUAD_.nfo"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fade",
+			"blink",
+			"Signal",
+			"pulsePin",
+			"pulse",
+			"jsonBuffer.createObject();",
+			"getColor",
+			"color",
+			"enddisplaycommand",
+			"WAV ERR"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/VHDL/VHDL.sublime-build",
+	"project": "frequencyMeter.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 123.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

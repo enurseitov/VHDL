@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-09-14T08:52:53</DateModified>
+  <DateModified>2016-09-14T13:36:50</DateModified>
   <ModuleName>machine</ModuleName>
-  <SummaryTimeStamp>2016-09-14T08:46:14</SummaryTimeStamp>
+  <SummaryTimeStamp>2016-09-14T08:52:57</SummaryTimeStamp>
   <SavedFilePath>C:/Users/ster/VHDL/fsm/iseconfig/machine.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/ster/VHDL/fsm</ImplementationReportsDirectory>
   <DateInitialized>2016-09-14T08:32:34</DateInitialized>

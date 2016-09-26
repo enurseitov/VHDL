@@ -1,0 +1,2 @@
+vhdl isim_temp "etalon_detector.vhd"
+vhdl isim_temp "test_etlon_detector.vhd"

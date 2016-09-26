@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Sep 16 18:41:36 2016
+# Process ID: 6488
+# Log file: C:/Users/ster/VHDL/frequencyMeter/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/ster/VHDL/frequencyMeter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/ster/VHDL/frequencyMeter/pa.fromNetlist.tcl

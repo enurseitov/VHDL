@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ster/VHDL/frequencyMeter/test_device_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test_device" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/test_device/in_wave" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_wave</obj_property>
+      <obj_property name="ObjectShortName">in_wave</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/segments_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">segments_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">segments_out[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/an_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">an_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/point" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">point</obj_property>
+      <obj_property name="ObjectShortName">point</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/hzled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hzled</obj_property>
+      <obj_property name="ObjectShortName">hzled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/khzled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">khzled</obj_property>
+      <obj_property name="ObjectShortName">khzled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/mhzled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mhzled</obj_property>
+      <obj_property name="ObjectShortName">mhzled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/toohighled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">toohighled</obj_property>
+      <obj_property name="ObjectShortName">toohighled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/toolowled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">toolowled</obj_property>
+      <obj_property name="ObjectShortName">toolowled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/srchfled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">srchfled</obj_property>
+      <obj_property name="ObjectShortName">srchfled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/srclfled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">srclfled</obj_property>
+      <obj_property name="ObjectShortName">srclfled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/in_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">in_period</obj_property>
+      <obj_property name="ObjectShortName">in_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_device/uut/MN_COUNT/o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

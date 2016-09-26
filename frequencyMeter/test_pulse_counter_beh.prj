@@ -1,0 +1,2 @@
+vhdl work "pulse_counter.vhd"
+vhdl work "test_pulse_counter.vhd"

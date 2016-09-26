@@ -1,0 +1,2 @@
+vhdl work "etalon_detector.vhd"
+vhdl work "test_etlon_detector.vhd"

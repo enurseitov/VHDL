@@ -1,0 +1,2 @@
+vhdl work "divider_sub.vhd"
+vhdl work "test_divider_sub.vhd"

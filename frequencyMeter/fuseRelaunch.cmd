@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ster/VHDL/frequencyMeter/test_divider_sub_isim_beh.exe" -prj "C:/Users/ster/VHDL/frequencyMeter/test_divider_sub_beh.prj" "work.test_divider_sub" 

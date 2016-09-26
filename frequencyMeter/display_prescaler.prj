@@ -1,0 +1,2 @@
+vhdl work "myArith.vhd"
+vhdl work "display_prescaler.vhd"

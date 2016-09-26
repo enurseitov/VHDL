@@ -1,0 +1,2 @@
+vhdl isim_temp "converter.vhd"
+vhdl isim_temp "test_converter.vhd"

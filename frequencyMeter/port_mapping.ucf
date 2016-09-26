@@ -1,0 +1,51 @@
+
+net clk loc = B8;
+
+net rst loc = B18;
+
+net in_wave loc = K12;
+NET "in_wave" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#net binary_in(0) loc = G18;
+#net binary_in(1) loc = H18;
+#net binary_in(2) loc = K18;
+#net binary_in(3) loc = K17;
+#net binary_in(4) loc = L14;
+#net binary_in(5) loc = L13;
+#net binary_in(6) loc = N17;
+#net binary_in(7) loc = R17;
+
+#net binary_in(8) loc = H13;
+#net binary_in(9) loc = H13;
+#net binary_in(10) loc = H13;
+#net binary_in(11) loc = H13;
+#net binary_in(12) loc = H13;
+#net binary_in(13) loc = H13;
+#net binary_in(14) loc = H13;
+#net binary_in(15) loc = H13;
+
+net segments_out(0) loc = L18;
+net segments_out(1) loc = F18;
+net segments_out(2) loc = D17;
+net segments_out(3) loc = D16;
+net segments_out(4) loc = G14;
+net segments_out(5) loc = J17;
+net segments_out(6) loc = H14;
+
+net point loc = C17;
+
+net HZled loc = J15;
+net KHZled loc = K15;
+net MHZled loc = K14;
+
+net tooHighLED loc = E17;
+net tooLowLED loc = J14;
+
+net srcHFLED loc = R4;
+net srcLFLED loc = F4;
+
+
+net an_out(0) loc = F17;
+net an_out(1) loc = H17;
+net an_out(2) loc = C18;
+net an_out(3) loc = F15;
