@@ -31,7 +31,7 @@ if (rst = '1') then
 elsif (clk'event and clk = '1') then
 	
 	--if (count = 5000000) then --unpdate once every 100 ms
-	if (count = 50000000) then --update every 1 s
+	if (count = 99999999) then --update every 1 s
 	temp <= i;
 	oPointPosition <= iPointPosition;
 	count <= (others => '0');
